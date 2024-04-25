@@ -22,3 +22,7 @@ const anotherNumber = 123.8965;
 console.log(anotherNumber.toPrecision(4)); //output: 123.9
 console.log(anotherNumber.toPrecision(3)); //output: 124
 console.log(anotherNumber.toPrecision(2)); //output: 1.2e+2
+
+const hunders = 1000000;
+console.log(hunders.toLocaleString()); // output: 1,000,000
+console.log(hunders.toLocaleString('en-IN')); // output: 10,00,000 converts to Indian Value
