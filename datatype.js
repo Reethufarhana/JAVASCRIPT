@@ -25,6 +25,9 @@ person.name = "Jaipal";
 
 console.log(userOne);
 
+
+
+// reverse the array value example
 const arr = [10,35,7,4,20,5];
 
 function reverse (arr){
@@ -36,3 +39,5 @@ function reverse (arr){
 }
 
 console.log(reverse(arr));
+
+
