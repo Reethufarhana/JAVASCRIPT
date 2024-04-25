@@ -41,3 +41,16 @@ function reverse (arr){
 console.log(reverse(arr));
 
 
+// function multiply(a) {
+//     return a * 2;
+// }
+// function square(n) {
+//     return multiply (n*n);
+// }
+// function printSquare(n) {
+//     var squared = square(n);
+//     console.log(squared);
+// }
+// printSquare(4);
+
+
