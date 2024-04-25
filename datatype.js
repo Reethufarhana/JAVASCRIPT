@@ -52,5 +52,3 @@ console.log(reverse(arr));
 //     console.log(squared);
 // }
 // printSquare(4);
-
-
