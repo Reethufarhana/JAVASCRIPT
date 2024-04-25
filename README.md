@@ -23,3 +23,11 @@ Heap = Heap is a different space for storing data where JavaScript stores object
 
 
 Releasing the memory when not in use anymore. In JavaScript, this is handled automatically (it is called JavaScript garbage collection).
+
+
+<!-- Numbers -->
+here in numbers there are some functions which are used to convert number to string by using "toString()" function.
+
+we can convert decimal value to round figure number by using "toPrecision()" function.
+
+we can take limited value after the decimal by using "toFixed()" function.
