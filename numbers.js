@@ -16,7 +16,7 @@ console.log(balance.toFixed(2)); //output: 100.00 (which adds decimal value)
 //here it shows round figure number
 const otherNumber = 23.8965;
 console.log(otherNumber.toPrecision(3)); //output: 23.9 because after 8 the value is 9 so it makes round figure 23.9
-console.log(otherNumber.toPrecision(2)); //output: 24 bcz we have mentioned 2 in precision so it looks after first 2 digits wheather 3rd digit is equal or above 5 if equal or above 5 it makes round figure
+console.log(otherNumber.toPrecision(2)); //output: 24 bcz we have mentioned 2 in precision so it looks after first 2 digits wheather 3rd digit is equal or above 5 it makes round figure
 
 const anotherNumber = 123.8965;
 console.log(anotherNumber.toPrecision(4)); //output: 123.9
