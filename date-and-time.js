@@ -24,4 +24,13 @@ let myDate = new Date();
 // let formattedDate = new Date("01-14-2024"); // here month wont starts in index format 
 // console.log(formattedDate.toLocaleString()) // displays date in mm/dd/yyyy format and time in hh:mm:ss format 
 
+// <!----------------------- Time Concept ---------------->
+let myTime = Date.now()
+console.log(myTime);  // whisch display time in milliseconds from (1st jan 1970)
 
+// let formattedDate = new Date("01-14-2024"); // here month wont starts in index format 
+// console.log(formattedDate.getTime())
+
+console.log(myTime/1000); // which converts milliseconds to seconds gives in decimal point
+
+console.log(Math.floor(myTime/1000)); // here it removes decimal
