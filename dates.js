@@ -21,5 +21,7 @@ let myDate = new Date();
 // let createdDate = new Date(2023, 1, 23, 10, 15);
 // console.log(createdDate.toLocaleString()); // displays date in mm/dd/yyyy format and time in hh:mm:ss format
 
-let formattedDate = new Date("01-14-2024"); // here month wont starts in index format 
-console.log(formattedDate.toLocaleString()) // displays date in mm/dd/yyyy format and time in hh:mm:ss format 
+// let formattedDate = new Date("01-14-2024"); // here month wont starts in index format 
+// console.log(formattedDate.toLocaleString()) // displays date in mm/dd/yyyy format and time in hh:mm:ss format 
+
+
