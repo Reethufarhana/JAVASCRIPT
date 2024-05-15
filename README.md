@@ -31,3 +31,10 @@ here in numbers there are some functions which are used to convert number to str
 we can convert decimal value to round figure number by using "toPrecision()" function.
 
 we can take limited value after the decimal by using "toFixed()" function.
+
+
+<!----------Objects------------>
+
+objects can be declared in two types:
+1) in the form of "Literals": no singleton in literals
+2) in the form of "Constructors": builds singleton in constrctors
