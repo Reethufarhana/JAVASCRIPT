@@ -25,9 +25,44 @@
 // console.log(newArr);
 // console.log(typeof(newArr)); 
 
-const Arrslice = [0, 1, 2, 3, 4, 5]
-console.log("slice example:", Arrslice);
-console.log(Arrslice.slice(1, 4)); // here it doesn't include last which was mentioned in slice
+// const Arrslice = [0, 1, 2, 3, 4, 5]
+// console.log("slice example:", Arrslice);
+// console.log(Arrslice.slice(1, 4)); // here it doesn't include last which was mentioned in slice
 
-console.log("splice example:", Arrslice);
-console.log(Arrslice.splice(1, 2)) // here it displays only mentioned part in the splice
+// console.log("splice example:", Arrslice);
+// console.log(Arrslice.splice(1, 2)) // here it displays only mentioned part in the splice
+
+// const marvel_heros = ['Ironman', 'Spiderman', 'Thor']
+// const dc_heros = ['Superman', 'Batman', 'Aquaman']
+
+// const superheros = marvel_heros.concat(dc_heros)
+// console.log(superheros);
+
+// // (or)
+
+// const allheros = [...marvel_heros, ...dc_heros]; //spread operator
+// console.log(allheros);
+
+// const nestedArr = [1, 2, 3, [4, 5, [6, 7]]];
+// const anotherArr = nestedArr.flat(Infinity); //it combined nested array into one array
+// console.log(anotherArr);
+
+////////////////////////////////////////////
+
+
+// console.log(Array.isArray('Reethu')); // it checks weather it have the array with the name 'Reethu'
+// console.log(Array.from('Reethu')) // it seperates the single letter in to an array
+
+// const names = ['reethu', 'Reethu', 'farhana']
+// const test = Array.isArray(names);
+// console.log(test);
+
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+console.log(Array.of(score1, score2, score3)); // it combines all values in one object
+
+// let score = Array.of(score1, score2, score3);
+// console.log(typeof(score))
+
+
