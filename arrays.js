@@ -1,14 +1,35 @@
-let city = ["California", "Barcelona", "Paris", "Kathmandu"];
-
+//Example 1: Array length
+//let city = ["California", "Barcelona", "Paris", "Kathmandu"];
 // find the length of the city array
-let len = city.length;
-console.log(len); // Output: 4
+//let len = city.length;
+//console.log(len); // Output: 4
 
+//Example 2: Using Array length in for loop
+//var languages = ["JavaScript", "Python", "C++", "Java", "Lua"];
+// languages.length can be used to find out the number of times to loop over an array
+//for (i = 0; i < languages.length; i++){
+//    console.log(languages[i]); // Output: JavaScript Python C++ Java Lua
+//}
+
+//Changing length property of Array
+//var languages = ["JavaScript", "Python", "C++", "Java", "Lua"];
+// truncate the Array to 3 elements
+//languages.length = 3
+// Output: [ 'JavaScript', 'Python', 'C++' ]
+//console.log(languages)
+// extend the Array to length 6
+//languages.length = 6
+// Output: [ 'JavaScript', 'Python', 'C++', <3 empty items> ]
+//console.log(languages)
+
+
+//Example 3: value in the array
 // const arr1 = [1,2,3,true,'reethu']
-// console.log(arr1[0]);
+// console.log(arr1[0]); //Output: 1
 
+//Example 4: value in the array
 // const arr2 = new Array(4,5,false,'farhana')
-// console.log(arr2[3]);
+// console.log(arr2[3]);  //Output: farhana
 
 // // Array Methods
 // const Arr1 = [1, 2, 3, 4, 5]
