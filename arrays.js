@@ -15,12 +15,10 @@
 //var languages = ["JavaScript", "Python", "C++", "Java", "Lua"];
 // truncate the Array to 3 elements
 //languages.length = 3
-// Output: [ 'JavaScript', 'Python', 'C++' ]
-//console.log(languages)
+//console.log(languages) // Output: [ 'JavaScript', 'Python', 'C++' ]
 // extend the Array to length 6
 //languages.length = 6
-// Output: [ 'JavaScript', 'Python', 'C++', <3 empty items> ]
-//console.log(languages)
+//console.log(languages) // Output: [ 'JavaScript', 'Python', 'C++', <3 empty items> ]
 
 
 //Example 3: value in the array
@@ -32,6 +30,13 @@
 // console.log(arr2[3]);  //Output: farhana
 
 // // Array Methods
+// map()=> creates a new array by applying a function to each element of an existing array.
+//👉 It does not modify the original array.
+// const numbers = [1, 2, 3, 4];
+//const doubled = numbers.map(num => num * 2);
+//console.log(doubled); //Output: [2, 4, 6, 8]
+
+
 // const Arr1 = [1, 2, 3, 4, 5]
 // Arr1.push(6) // which adds number at the end
 // console.log(Arr1);
