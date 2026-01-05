@@ -1,3 +1,9 @@
+let city = ["California", "Barcelona", "Paris", "Kathmandu"];
+
+// find the length of the city array
+let len = city.length;
+console.log(len); // Output: 4
+
 // const arr1 = [1,2,3,true,'reethu']
 // console.log(arr1[0]);
 
