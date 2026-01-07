@@ -17,14 +17,10 @@ let userOne = {
     name: 'reethu',
     age: '29'
 }
-
 // const person = {...userOne}; //here it wont change the first declared values
-
 const person = userOne
 person.name = "Jaipal";
-
 console.log(userOne);
-
 
 
 // reverse the array value example
