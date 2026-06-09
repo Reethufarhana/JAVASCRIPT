@@ -1,5 +1,4 @@
 // how to create an object ?
-
 // Object.create // this method is known as constructor method.
 
 // (or)
